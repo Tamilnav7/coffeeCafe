@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(rgb(231, 224, 222),rgb(170, 165, 156));
+
+}
+.navbar{
+    max-width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: rgb(112, 110, 107);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    }
+    .fa-solid, fas{
+        font-weight: bolder; 
+        font-size: 40px;
+    }
+   
+.navbar ul{
+    display: flex;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+.navbar ul li{
+      padding: 0px 10px;
+      list-style: none;
+     
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;  
+}
+.navbar ul li a:hover{
+   color: rgb(124, 8, 8);
+   transition: 0.5 ease;
+   margin: 3px;
+
+    }
+    .container{
+             display: flex;
+             align-items: center;
+             justify-content: space-around;
+             padding: 5px 10px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    span{
+        color: rgb(184, 57, 7);
+        font-style: italic;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .text h1{
+        margin-top: 10px;
+        color: black;
+
+    }
+    .text p{
+        margin-top: 10px;
+        color: black;
+    }
+    .order_btn{
+        margin-top: 15px;
+        padding: 10px 25px;
+        border-radius: 15px;
+        background-color: rgb(158, 78, 3);
+        color: white;
+        font-size: large;
+        border: 2px solid rgb(219, 214, 214);
+    }
+    .order_btn:hover{
+        transform: translateX(10px);
+        transition: 2s;
+        background-color: rgb(133, 102, 18);
+    }
+    .image img{
+        max-width: 100%;     
+       width: 500px;
+       flex-wrap: wrap;
+    }
+     .service{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        color:black;
+    }
+    #item1{
+        margin-top: 30px;
+        margin-left: 10px;
+        border: none;
+        transition: none;
+        translate: none;
+    }
+    #item1 h4{
+        color: brown;
+    }
+    #item1 h1{
+        margin-top: 3px;
+    }
+    #item1 p{
+        margin-top: 3px;
+        font-style: italic;
+    }
+    .coffee_btn{
+        margin-top: 15px;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: rgb(156, 74, 6);
+        color: white;
+    }
+    .coffee_btn:hover{
+        transform: translateX(10px);
+        transition: 2s;
+        background-color: rgb(133, 102, 18);
+
+    }
+   .service_item{
+    margin-top: 3px;
+    padding: 5px;
+    flex-basis: 20%;
+   }
+   .service_item:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+   }
+   .service_item h2{
+    text-align: center;
+    color: black;;
+   }
+   .service_item h5{
+    margin-top: 5px;
+   }
+   .service_item img{
+        margin-top: 5px;
+       width:200px;
+       height: 200px;
+     }
+     .service_item h3{
+        text-align: center;
+     }
+     .titlebar{
+        margin-top: 30px;
+        text-align: center;
+     }
+    .gallery{
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.gallery div{
+    margin: 10px;
+    flex-basis: 20%;
+    cursor: pointer;
+    border-radius: 15px;
+    }
+.gallery img{
+    width: 200px;
+    height: 200px;
+
+}
+.gallery img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+    
+}
+.contact_us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.gmap{
+    margin-top: 30px;
+}
+.contact_us div h4{
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.contact_us i{
+    font-size: small;
+}
+    input {
+        margin-top: 10px;
+        height: 35px;
+        width: -webkit-fill-available;
+    
+    }
+
+textarea{
+    margin-top: 10px;
+}
+.msg_btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(156, 74, 6);
+    color: white;
+
+}
+
+.msg_btn:hover{
+    transform: translateX(10px);
+    transition: 2s;
+    background-color: rgb(133, 102, 18);
+}
+/* .gmap{
+    
+} */
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(112, 110, 107);
+    line-height: 50px;
+    align-items: center;
+    color: white;
+}
